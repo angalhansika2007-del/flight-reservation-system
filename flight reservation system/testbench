@@ -1,0 +1,19 @@
+public class FlightReservationTest {
+
+    public static void main(String[] args) {
+
+        FlightReservationSystem.seats = 10;
+
+        if (FlightReservationSystem.book(3))
+            System.out.println("Test 1: PASS");
+        else
+            System.out.println("Test 1: FAIL");
+
+        if (FlightReservationSystem.seats == 7)
+            System.out.println("Test 2: PASS");
+        else
+            System.out.println("Test 2: FAIL");
+
+        System.out.println("Testing Completed.");
+    }
+}

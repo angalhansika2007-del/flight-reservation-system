@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class FlightReservationSystem {
+
+    static int seats = 10;
+
+    static boolean book(int n) {
+        if (n > 0 && n <= seats) {
+            seats -= n;
+            return true;
+        }
+        return false;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("===== FLIGHT RESERVATION =====");
+        System.out.println("Flight: AI101");
+        System.out.println("Route: Hyderabad -> Delhi");
+        System.out.println("Available Seats: " + seats);
+
+        System.out.print("Enter seats to book: ");
+        int n = sc.nextInt();
+
+        if (book(n))
+            System.out.println("Booking Successful!");
+        else
+            System.out.println("Booking Failed!");
+
+        System.out.println("Remaining Seats: " + seats);
+
+        sc.close();
+    }
+}

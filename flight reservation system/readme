@@ -1,0 +1,49 @@
+# Flight Reservation System - Java
+
+## Description
+
+A simple Java application for booking flight seats.
+
+## Features
+
+- Display flight details
+- Book seats
+- Check remaining seats
+- Simple testbench
+
+## Technologies
+
+- Java
+- Scanner
+- Methods
+
+## Run
+
+Compile:
+
+javac FlightReservationSystem.java FlightReservationTest.java
+
+Run:
+
+java FlightReservationSystem
+
+Test:
+
+java FlightReservationTest
+
+## Output
+
+===== FLIGHT RESERVATION =====
+Flight: AI101
+Route: Hyderabad -> Delhi
+Available Seats: 10
+
+Enter seats to book: 3
+Booking Successful!
+Remaining Seats: 7
+
+## Testbench
+
+Test 1: PASS
+Test 2: PASS
+Testing Completed.

@@ -1,0 +1,8 @@
+===== FLIGHT RESERVATION =====
+Flight: AI101
+Route: Hyderabad -> Delhi
+Available Seats: 10
+
+Enter seats to book: 3
+Booking Successful!
+Remaining Seats: 7
